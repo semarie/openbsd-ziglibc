@@ -45,8 +45,8 @@ Use the environment
 -------------------
 
 ```
-$ ZIG_LIBC=path/to/amd64/libc.conf zig build-exe -target x86_64-openbsd -o test/helloz test/hello.zig
-$ ZIG_LIBC=path/to/amd64/libc.conf zig cc -target x86_64-openbsd -o test/helloc test/hello.c
+$ ZIG_LIBC=path/to/amd64/libc.conf zig build-exe -target x86_64-openbsd -o tests/helloz tests/hello.zig
+$ ZIG_LIBC=path/to/amd64/libc.conf zig cc -target x86_64-openbsd -o tests/helloc tests/hello.c
 ```
 
 Make shell wrapper
